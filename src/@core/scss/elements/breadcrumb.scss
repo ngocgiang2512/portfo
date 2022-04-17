@@ -1,0 +1,10 @@
+.breadcrumb {
+  .breadcrumb-item {
+    a {
+      color: $primary;
+      &:hover {
+        color: $primary-darken;
+      }
+    }
+  }
+}

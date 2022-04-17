@@ -1,0 +1,35 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.game-header .icon-face.waiting {
+  background-size: cover;
+  background-image: url('./images/icon-playing.png');
+}
+
+.game-header .icon-face.playing {
+  background-size: cover;
+  background-image: url('./images/icon-playing.png');
+}
+
+.game-header .icon-face.losing {
+  background-size: cover;
+  background-image: url('./images/icon-losing.png');
+}
+
+.game-header .icon-face.winning {
+  background-size: cover;
+  background-image: url('./images/icon-winning.png');
+}
+
+.cell.flag {
+  background-size: cover;
+  background-image: url('./images/flag.png');
+}
+
+.cell.boom {
+  background-size: cover;
+  background-image: url('./images/boom.png');
+}

@@ -2,20 +2,43 @@
   "name": "koko",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:8000",
   "dependencies": {
+    "@craco/craco": "^6.4.3",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "axios": "^0.26.1",
+    "moment": "^2.29.2",
+    "postcss-rtl": "1.5.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-feather": "^2.0.9",
+    "react-router-dom": "5.2.0",
     "react-scripts": "5.0.0",
+    "reactstrap": "^9.0.1",
+    "sass": "1.26.8",
+    "styled-components": "^5.1.1",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "@types/sortablejs": "^1.10.6",
+    "craco-alias": "^3.0.1",
+    "eslint": "^7.8.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-react": "^7.20.6",
+    "node-sass": "^4.13.1",
+    "react-app-rewire-aliases": "^0.2.0",
+    "react-app-rewire-postcss": "^3.0.2",
+    "react-app-rewire-sass-rule": "^2.1.1",
+    "react-app-rewired": "^2.1.6",
+    "sass-loader": "^8.0.2"
+  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject"
   },
   "eslintConfig": {
     "extends": [

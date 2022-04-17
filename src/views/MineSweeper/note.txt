@@ -1,0 +1,52 @@
+
+Minesweeper specification
+
+------------------------------------------------------------
+
+Bao gồm 2 phần:
+- Header
+- Play Ground
+
+Phần Header bao gồm 3 phần:
+- remained mines: số lượng mìn còn lại trên ground, mỗi lần đánh dấu flag trên ground thì giá trị này giảm đi 1, giá trị này không thể âm 
+- elapsed times: thời gian đã trôi qua từ khi bắt đầu game
+- biểu tượng hình khuôn mặt
+
+------------------------------------------------------------
+
+state của app:
+- game status: ['playing', 'lose', 'win']
+- remained mines: number
+- elapsed time: number
+- playground data: a matrix of cells
+
+cell properties:
+cell: {
+  x: number; // tọa độ x của cell
+  y: number; // tọa độ y của cell
+  hint: number; // gợi ý xung quanh cell này có bao nhiêu bomb
+  isMine: boolean; // cell này có chứa bomb hay không
+  isClicked: boolean; // player đã click vào cell này hay chưa
+}
+
+
+------------------------------------------------------------
+
+// const initialState = {
+//   sizes: [
+//     {
+//       label: 'Beginner 9x9',
+//       value: 9
+//     },
+//     {
+//       label: 'Advance 16x16',
+//       value: 16
+//     }
+//   ],
+//   size: null,
+//   loading: true,
+//   mines: [],
+//   data: [],
+//   status: 'playing',
+//   elapsedTime: 0
+// }

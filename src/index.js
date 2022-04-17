@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '@styles/styles.scss'
+
+const Spinner = () => {
+  return <p>Spinner</p>;
+};
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Suspense fallback={<Spinner />}>
+      <App />
+      </Suspense>
   </React.StrictMode>,
   document.getElementById('root')
 );

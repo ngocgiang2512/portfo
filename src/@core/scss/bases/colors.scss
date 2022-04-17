@@ -1,0 +1,81 @@
+$white: #fff;
+$black: #000;
+
+$primary: #7367f0!important;
+$secondary: #82868b!important;
+$success: #28c76f!important;
+$warning: #ff9f43!important;
+$danger: #ea5455!important;
+$info: #00cfe8!important;
+
+$primary-darken: #4839eb!important;
+$secondary-darken: #696d71!important;
+$success-darken: #1f9d57!important;
+$warning-darken: #ff8510!important;
+$danger-darken: #e42728!important;
+$info-darken: #00a1b5!important;
+
+$title: #d0d2d6;
+$text: #d0d2d6;
+$text-dark: #b4b7bd;
+$background-dark: #283046;
+
+.text-white {
+  color: $white;
+}
+
+.text-dark {
+  color: $text-dark;
+}
+
+.bg-primary {
+  background-color: $primary;
+}
+
+.bg-secondary {
+  background-color: $secondary;
+}
+
+.bg-success {
+  background-color: $success;
+}
+
+.bg-warning {
+  background-color: $warning;
+}
+
+.bg-danger {
+  background-color: $danger;
+}
+
+.bg-info {
+  background-color: $info;
+}
+
+.bg-primary-darken {
+  background-color: $primary-darken;
+}
+
+.bg-secondary-darken {
+  background-color: $secondary-darken;
+}
+
+.bg-success-darken {
+  background-color: $success-darken;
+}
+
+.bg-warning-darken {
+  background-color: $warning-darken;
+}
+
+.bg-danger-darken {
+  background-color: $danger-darken;
+}
+
+.bg-info-darken {
+  background-color: $info-darken;
+}
+
+.bg-dark {
+  background-color: $background-dark;
+}

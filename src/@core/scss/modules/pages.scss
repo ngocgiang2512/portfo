@@ -1,0 +1,79 @@
+.page {
+  .page-title {
+    margin-bottom: 30px;
+  }
+  .card {
+    background-color: $background-dark;
+    padding: 21px;
+    border-radius: 8px;
+    margin-top: 30px;
+    .card-title {
+      margin-bottom: 21px;
+    }
+  }
+  .heading-wrapper {
+    height: 60px;
+    line-height: 60px;
+  }
+}
+
+.page-title {
+  color: $title;
+}
+
+.card-title {
+  color: $title;
+}
+
+.page-colors {
+  .card-color {
+    margin-top: 30px;
+  }
+  .box-color-wrapper {
+    margin-top: 21px;
+  }
+}
+
+.page-buttons {
+  .card-button {
+    margin-top: 30px;
+  }
+  .buttons-wrapper {
+    margin-top: 21px;
+    > .btn:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+.box-color-wrapper {
+  display: flex;
+  margin-top: 30px;
+  > div {
+    margin: 8px;
+  }
+}
+
+.box-icon-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  > div {
+    margin: 0 5px 15px;
+  }
+}
+
+.buttons-wrapper {
+  > .btn {
+    margin: 0 10px;
+  }
+}
+
+.page-fetch {
+  .image-wrapper {
+    width: 200px;
+    img {
+      width: 100%;
+    }
+  }
+}
