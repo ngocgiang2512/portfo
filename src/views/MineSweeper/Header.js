@@ -1,5 +1,6 @@
 // @see https://stackoverflow.com/questions/63458425/setinterval-react-hooks-causing-multiple-updates-within-component
 // @see https://stackoverflow.com/questions/63333897/how-to-setup-a-setinterval-timer-properly-in-a-react-functional-component
+
 const Header = (props) => {
   const getIconClassName = (gameStatus) => {
     let iconClassName = 'icon-face';
